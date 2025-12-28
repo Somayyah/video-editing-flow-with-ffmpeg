@@ -11,8 +11,6 @@ Since my videos don't require that much editing to begin with, and since my obje
 │   │   └── 1.wav
 │   ├── srts
 │   │   └── 1.srt
-│   ├── tapes
-│   │   └── 1.tape
 │   └── video
 │       ├── 1.mp4
 │       └── 2
