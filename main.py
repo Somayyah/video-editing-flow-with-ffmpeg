@@ -1,4 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env python3
+
+import pathlib
 
 # add audio and subtitles to a video clip
 # ffmpeg -i media/video/{}.mp4 -i media/audio/{}.wav -vf subtitles=media/srts/{}.srt video.mp4
@@ -8,19 +10,27 @@
 #
 # Input order is important, images first then audio
 #
-find_videos () {
-	echo
-}
 
-find_audio () {
-	echo
-}
+lines = []
+with open("order.txt", "r") as order:
+    lines = [ line if line[-1] != '\n' else line[:-1] for line in order.readlines()]
 
-find_srts () {
-	echo
-}
+#    print(lines)
 
-render () {
-	echo
-}
+def find_videos():
+    pass
 
+def find_audio():
+    pass
+
+def find_srts():
+    pass
+
+def render():
+    pass
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    pass
